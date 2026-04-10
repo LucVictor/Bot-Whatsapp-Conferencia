@@ -11,3 +11,5 @@ async function buscarContato(pool, telefone) {
         return null;
     }
 }
+
+module.exports = { buscarContato };
